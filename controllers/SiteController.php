@@ -447,6 +447,10 @@ class SiteController extends Controller
     {
     	return $this->renderPartial('_settings-webhooks');
     }
+    public function actionSettingsLogs()
+    {
+    	return $this->renderPartial('_settings-logs');
+    }
     
 //=================== CRONJOB Views
     public function actionCronjobAcknowledgeOrders()
